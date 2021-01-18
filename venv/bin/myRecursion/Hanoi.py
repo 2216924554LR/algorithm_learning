@@ -4,5 +4,5 @@ def hanoi(n, a, b, c):
         print("moving from {} to {}".format(a, c))
         hanoi(n-1, b, a, c)
 
-
-hanoi(2, 'A', 'B', 'C')
+if __name__ == "__main__":
+    hanoi(2, 'A', 'B', 'C')
